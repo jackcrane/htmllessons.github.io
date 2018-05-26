@@ -49,6 +49,9 @@
 	<code>
 &lt;!DOCTYPE html&gt;
 	&lt;html&gt;
+	&lt;head&gt;
+		My team website!
+	&lt;/head&gt;
 		&lt;body&gt;
 			&lt;h1&gt;My team website!&lt;/h1&gt;
 			&lt;p&gt;Congratulations! you are ready to start coding!&lt;/p&gt;
@@ -75,6 +78,8 @@
 <pre><code>
 &lt;script type="text/javascript"&gt;JS code goes here&lt;/script&gt;
 </code></pre>
+<h1>Time to launch!</h1>
+<br>[-] Open Github Desktop, and you should see your changes. If you don't, click "current repository" in the top left and then click on your repository name.
 <h1>Dictionary of terms:</h1><br>
 <pre><code>
 &lt;h1&gt;&lt;/h1&gt;  --  Title, Large font
