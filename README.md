@@ -23,10 +23,7 @@
 <h1>So lets get started!</h1>
 <br>
 <h1>Creating a github account</h1>
-<br><video width="400" controls>
-  <source src="acc.mp4" type="video/mp4">
-  Oops! an error occured! Try using Google Chrome or updating your browser.
-</video>
+<br><img src="https://lh3.googleusercontent.com/I5QmIEx76lSpyHNwMNJeG3AlUV8Ek7-A6DEEMWl96vkJEPYmQ9MiRjthcN0UKo4BaGj0XLWwq7SpKdR1HBFxVJPNj5n9z9ZAqfJaex4wqatoMTWvTE6owfQIVukbrCuR62FvLOLKR55V285ptQKOXqSA3Tq8QNxAT2YokenhjrsVQWthEpFCa9wz4sc-8QIYDujWXv2D8ZjgO_hguq5nNW6xzAGbkBWUr561B1sWzUVXMcw1Rv6E2BPvRL-ZlQrAX1E8WFv8HoY5j8W24wnJSpCzRhDmoDH6I0vSAJtJKVdC4N_lE4DWOpaeq4Vi1N-sCZvKryToFAkmzngX8NfCS8ZDtXyctOq2gketp-RnPywQBO3uoNaG90c2_2tI3VifvrQiz62i74LiBMO5ET8gosIOuNSeyLwA8QQkIREji408iG2DA09pBMK9JdjIKhg8NxTevC31jV4pNgf0-YPdvT9RgPe-3x_JAdFzRbnBXAhA7IpzvMAU49tB8qpxvJvBJyIFQReGFNioac-xSXTvRkJi97HJnKvHz4NkOz5rjEby3fw22NRi-apG5BdyXHq2=w1920-h925" alt="Create an account directions">
 <br>[-] Create an account name (preferrably teamnameteamnumber.) Ex: fantasticfive618 <b><u><i>NO CAPITOL LETTERS!</i></u></b>
 <h1>Creating and downloading a repository</h1>
 <br>
