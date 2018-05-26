@@ -24,7 +24,7 @@
 <br>
 <h1>Creating a github account</h1>
 <br><video width="400" controls>
-  <source src="videos\createanaccount.mp4" type="video/mp4">
+  <source src="acc.mp4" type="video/mp4">
   Oops! an error occured! Try using Google Chrome or updating your browser.
 </video>
 <br>[-] Create an account name (preferrably teamnameteamnumber.) Ex: fantasticfive618 <b><u><i>NO CAPITOL LETTERS!</i></u></b>
