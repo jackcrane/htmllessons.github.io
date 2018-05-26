@@ -51,13 +51,21 @@
 	&lt;/html&gt;
 	</code>
 </pre>
-<br>[-] Save the file as __index.html__
+<br>[-] Save the file as <i>index.html</i>
 <br>[-] Navigate back to the folder, and there should be a new file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome.
 <br>
 <h1>Let's start editing!</h1>
-<br>
+<br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
+<br>[-] Each command you type will be inside of angle brackets, and closed with a slash.
+<pre><code>
+&lt;h1&gt;code goes here&lt;/h1&gt;
+&lt;h2&gt;code goes here&lt;/h2&gt;
+&lt;h6&gt;code goes here&lt;/h6&gt;
+&lt;p&gt;code goes here&lt;/p&gt;
+&lt;div&gt;code goes here&lt;/div&gt;
+</code></pre>
 <h1>Dictionary of terms:</h1><br>
 <pre><code>
 &lt;h1&gt;&lt;/h1&gt;  --  Title, Large font
