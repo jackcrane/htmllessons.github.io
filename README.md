@@ -9,7 +9,8 @@
 <h1>Prerequisite programs (all freeware)</h1>
 <br>[-] Sublime text 3  --  sublimetext.com/3
 <br>[-] Google Chrome  --  google.com/chrome
-<br>[-] Github Desktop (with an account)  --  desktop.github.com
+<br>[-] Github Account  --  github.com (refer to below for creating your account)
+<br>[-] Github Desktop  --  desktop.github.com
 <br>
 <h1>What we will cover in this introduction to programming</h1>
 <br>[-] Creating a new HTML file and opening it
@@ -22,6 +23,7 @@
 <h1>So lets get started!</h1>
 <br>
 <h1>Creating and downloading a repository</h1>
+<h1>Creating a github account</h1>
 <br>
 <br>[-] Go to github.com/{your username}
 <br>[-] Click the "+" sign at the top-right of the github website and click "new repository"
@@ -32,7 +34,7 @@
 <br>[-] Click "create repository"
 <br>[-] Click "set up in desktop"
 <br>[-] If prompted, click open in Github Desktop
-<br>[-] In Github, change the path to C:\users\{your computer username}\documents\GitHub\{whatever you called your project} IT SHOULD ALREADY BE LIKE THIS, JUST BE SURE.
+<br>[-] In Github, change the path to C:\users\{your computer username}\documents\GitHub\{whatever you called your project} <br>IT SHOULD ALREADY BE LIKE THIS, JUST BE SURE.
 <br>[-] Now, in file explorer, open your documents folder.
 <br>[-] Navigate to GitHub\{whatever you called your project}
 <br>[-] You should be in an empty folder.
@@ -58,13 +60,17 @@
 <br>
 <h1>Let's start editing!</h1>
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
-<br>[-] Each command you type will be inside of angle brackets, and closed with a slash.
+<br>[-] Each command you type will be inside of angle brackets, and closed with a slash:
 <pre><code>
 &lt;h1&gt;code goes here&lt;/h1&gt;
 &lt;h2&gt;code goes here&lt;/h2&gt;
 &lt;h6&gt;code goes here&lt;/h6&gt;
 &lt;p&gt;code goes here&lt;/p&gt;
 &lt;div&gt;code goes here&lt;/div&gt;
+</code></pre>
+<br>[-] And if you know JavaScript, you can imbed it in HTML!
+<pre><code>
+&lt;script type="text/javascript"&gt;JS code goes here&lt;/script&gt;
 </code></pre>
 <h1>Dictionary of terms:</h1><br>
 <pre><code>
