@@ -1,17 +1,17 @@
 # htmllessons.github.io
-HTML lessons
+##HTML lessons
 
 
 <br>
 <br>
-This is a project that will make it easy for you to learn how to create your own FTC or FLL team website!
+##This is a project that will make it easy for you to learn how to create your own FTC or FLL team website!
 <br>
-Prerequisite programs (all freeware)
+###Prerequisite programs (all freeware)
 <br>[-] Sublime text 3  --  sublimetext.com/3
 <br>[-] Google Chrome  --  google.com/chrome
 <br>[-] Github Desktop (with an account)  --  desktop.github.com
 <br>
-What we will cover in this introduction to programming
+###What we will cover in this introduction to programming
 <br>[-] Creating a new HTML file and opening it
 <br>[-] Add a header and paragraph
 <br>[-] Use "div's" to break apart your website into a more visually-appealing page
@@ -19,9 +19,9 @@ What we will cover in this introduction to programming
 <br>[-] Use A tags to create a link
 <br>[-] Use Google Anaylitics to gather user information
 <br>
-So lets get started!
+###So lets get started!
 <br>
-Creating and downloading a repository 
+###Creating and downloading a repository 
 <br>
 <br>[-] Go to github.com/{your username}
 <br>[-] Click the "+" sign at the top-right of the github website and click "new repository"
@@ -37,7 +37,7 @@ Creating and downloading a repository
 <br>[-] Navigate to GitHub\{whatever you called your project}
 <br>[-] You should be in an empty folder.
 <br>
-Creating your first webpage
+##Creating your first webpage
 <br>
 <br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!<br>
 <pre>
@@ -56,9 +56,9 @@ Creating your first webpage
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome.
 <br>
-Let's start editing!
+###Let's start editing!
 <br>
-Dictionary of terms:<br>
+###Dictionary of terms:<br>
 <pre><code>
 &lt;h1&gt;&lt;/h1&gt;  --  Title, Large font
 &lt;h2&gt;&lt;/h2&gt;  --  Subtitle, Large font
@@ -66,3 +66,7 @@ Dictionary of terms:<br>
 &lt;p&gt;&lt;/p&gt;  --  Paragraph - use around content of the site
 &lt;div&gt;&lt;/div&gt;  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
 </code></pre>
+###Acknowledgments
+[-] <a href="mailto: 3jbc22@gmail.com">Jack Crane</a>
+###License
+[-] Free to use, edit, and redistribute, as long as I am still credited.
