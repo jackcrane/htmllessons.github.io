@@ -9,7 +9,7 @@
 <h1>Prerequisite programs (all freeware)</h1>
 <br>[-] Sublime text 3  --  sublimetext.com/3
 <br>[-] Google Chrome  --  google.com/chrome
-<br>[-] Github Account  --  github.com (refer to below for creating your account)
+<br>[-] Github Account  --  github.com (refer to <a href="https://github.com/htmllessons/htmllessons.github.io#creating-a-github-account">below</a> for creating your account)
 <br>[-] Github Desktop  --  desktop.github.com
 <br>
 <h1>What we will cover in this introduction to programming</h1>
