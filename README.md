@@ -42,13 +42,13 @@ Creating your first webpage
 <br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!<br>
 <pre>
 	<code>
-		<!DOCTYPE html>
-			<html>
-				<body>
-					<h1>My team website!</h1>
-					<p>Congratulations! you are ready to start coding!</p>
-				</body>
-			</html>
+		&le;!DOCTYPE html&gt;
+			&lt;html&gt;
+				&lt;body&gt;
+					&lt;h1&gt;My team website!&lt;/h1&gt;
+					&lt;p&gt;Congratulations! you are ready to start coding!&lt;/p&gt;
+				&lt;/body&gt;
+			&lt;/html&gt;
 	</code>
 </pre>
 <br>[-] Save the file as __index.html__
@@ -60,12 +60,12 @@ Let's start editing!
 <br>
 Dictionary of terms:<br>
 <pre><code>
-<h1></h1>  --  Title, Large font
-<h2></h2>  --  Subtitle, Large font
-<><><><><><><><><><><><><><><><><><> 
-<h6></h6>  --  The smallest of the "H" family
+&lt;h1&gt;&lt;/h1&gt;  --  Title, Large font
+&lt;h2&gt;&lt;/h2&gt;  --  Subtitle, Large font
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; 
+&lt;h6&gt;&lt;/h6&gt;  --  The smallest of the "H" family
 
-<p></p>  --  Paragraph - use around content of the site
+&lt;p&gt;&lt;/p&gt;  --  Paragraph - use around content of the site
 
-<div></div>  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
+&lt;div&gt;&lt;/div&gt;  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
 </code></pre>
