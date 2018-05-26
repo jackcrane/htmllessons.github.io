@@ -39,4 +39,33 @@ Creating and downloading a repository
 <br>
 Creating your first webpage
 <br>
-<br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!
+<br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!<br>
+<pre>
+	<code>
+		<!DOCTYPE html>
+			<html>
+				<body>
+					<h1>My team website!</h1>
+					<p>Congratulations! you are ready to start coding!</p>
+				</body>
+			</html>
+	</code>
+</pre>
+<br>[-] Save the file as __index.html__
+<br>[-] Navigate back to the folder, and there should be a new file called index.html
+<br>[-] Right-click on it and select "open with" and select "Google Chrome"
+<br>[-] Your file should open on Google Chrome.
+<br>
+Let's start editing!
+<br>
+Dictionary of terms:<br>
+<pre><code>
+<h1></h1>  --  Title, Large font
+<h2></h2>  --  Subtitle, Large font
+<><><><><><><><><><><><><><><><><><> 
+<h6></h6>  --  The smallest of the "H" family
+
+<p></p>  --  Paragraph - use around content of the site
+
+<div></div>  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
+</code></pre>
