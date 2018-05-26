@@ -25,7 +25,7 @@ Creating and downloading a repository
 <br>
 <br>[-] Go to github.com/{your username}
 <br>[-] Click the "+" sign at the top-right of the github website and click "new repository"
-<br>[-] Under "repository name" type the name of your team_your number, followed by ".github.io" (example: fantastic5_618.github.io)
+<br>[-] Under "repository name" type the name of your username, followed by ".github.io" (example: fantastic5_618.github.io)
 <br>[-] Add a description. This step is optional, but I would strongly recccomend adding "The website of {your team name]"
 <br>[-] Keep it on public (you have to pay to make it private, and for a website, that is really not necessary.) 
 <br>[-] Leave "initialize this repository with a README" unchecked
@@ -41,7 +41,7 @@ Creating your first webpage
 <br>
 <br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long
 <br>[-] Enter the following code:
-```
+<code>
 <!DOCTYPE html>
 <html>
 <body>
@@ -49,7 +49,7 @@ Creating your first webpage
 <p>Congratulations! you are ready to start coding!</p>
 </body>
 </html>
-```
+</code>
 <br>[-] Save the file as __index.html__
 <br>[-] Navigate back to the folder, and there should be a new file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
@@ -58,7 +58,7 @@ Creating your first webpage
 Let's start editing!
 
 Dictionary of terms:
-```
+<code>
 <h1></h1>  --  Title, Large font
 <h2></h2>  --  Subtitle, Large font
 <><><><><><><><><><><><><><><><><><> 
@@ -67,4 +67,4 @@ Dictionary of terms:
 <p></p>  --  Paragraph - use around content of the site
 
 <div></div>  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
-```
+</code>
