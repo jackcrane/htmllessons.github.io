@@ -80,6 +80,8 @@
 </code></pre>
 <h1>Time to launch!</h1>
 <br>[-] Open Github Desktop, and you should see your changes. If you don't, click "current repository" in the top left and then click on your repository name.
+<br>[-] In the bottom left, enter stuff into summary, click commit to master. 
+<br>[-] In the top center, click Publish Branch (only the first time) For the second to the billionth and beyond launch, it will say "push origin". They do essentially the same thing.
 <h1>Dictionary of terms:</h1><br>
 <pre><code>
 &lt;h1&gt;&lt;/h1&gt;  --  Title, Large font
