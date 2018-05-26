@@ -33,7 +33,7 @@
 <br>[-] <b>Set repository name to your account name! .github.io</b> Ex: fantasticfive618<i>.github.io</i>
 <br>[-] Give it a description. It says it is optional but I would very strongly reccomend it.
 <br>[-] Leave it as public.
-<br><img src="https://lh3.google.com/u/0/d/1_QgMbTEqa4i4jJk7Hc9VSnIv8gJvej2P=w1920-h925-iv1" alt="Open a repo directions">
+<br><img src="clone.gif" alt="Open a repo directions">
 <br>[-] Copy the URL given to you on the page. Should end in .git Ex: https://github.com/htmllessonsfirst/htmllessonsfirst.git
 <br>[-] In Github Desktop, click "File" then "Clone repository"
 <br>[-] Click on URL button, then paste your copied link under "URL or username/repository"
