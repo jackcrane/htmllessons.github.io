@@ -34,7 +34,7 @@
 <br>[-] Give it a description. It says it is optional but I would very strongly reccomend it.
 <br>[-] Leave it as public.
 <br><img src="clone.gif" alt="Open a repo directions">
-<br>[-] Copy the URL given to you on the page. Should end in .git Ex: https:<i>|</i>/github.com/htmllessonsfirst/htmllessonsfirst.git"
+<br>[-] Copy the URL given to you on the page. Should end in .git Ex: https:<i>/</i>/github.com/htmllessonsfirst/htmllessonsfirst.git"
 <br>[-] In Github Desktop, click "File" then "Clone repository"
 <br>[-] Click on URL button, then paste your copied link under "URL or username/repository"
 <br>[-] In Github, change the path to C:\users\{your computer username}\documents\GitHub\{whatever you called your project} <br>IT SHOULD ALREADY BE LIKE THIS, JUST BE SURE.
