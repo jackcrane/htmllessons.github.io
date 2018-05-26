@@ -22,8 +22,8 @@
 <br>
 <h1>So lets get started!</h1>
 <br>
-<h1>Creating and downloading a repository</h1>
 <h1>Creating a github account</h1>
+<h1>Creating and downloading a repository</h1>
 <br>
 <br>[-] Go to github.com/{your username}
 <br>[-] Click the "+" sign at the top-right of the github website and click "new repository"
