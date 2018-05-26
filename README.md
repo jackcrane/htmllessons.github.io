@@ -42,7 +42,7 @@ Creating your first webpage
 <br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!<br>
 <pre>
 	<code>
-&le;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 	&lt;html&gt;
 		&lt;body&gt;
 			&lt;h1&gt;My team website!&lt;/h1&gt;
