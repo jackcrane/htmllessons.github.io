@@ -51,6 +51,7 @@
 	&lt;html&gt;
 	&lt;head&gt;
 		My team website!
+		&lt;link rel="stylesheet" href="style.css"&gt;
 	&lt;/head&gt;
 		&lt;body&gt;
 			&lt;h1&gt;My team website!&lt;/h1&gt;
@@ -63,7 +64,7 @@
 <br>[-] Navigate back to the folder, and there should be a new file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/Jack/Documents/GitHub/{whatever you called your project}/index.html
-<br>
+<br>[-] Click "file" then "new file" (this can also be achived by clicking <button>Ctrl</button>/<button>Command</button> and <button>n</button>)
 <h1>Let's start editing!</h1>
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
 <br>[-] Each command you type will be inside of angle brackets, and closed with a slash:
