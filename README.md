@@ -56,10 +56,10 @@
 		&lt;body&gt;
 			&lt;div class="title"&gt;
 			&lt;h1&gt;My team website!&lt;/h1&gt;
-			&lt;/div&lt;
+			&lt;/div&gt;
 			&lt;div class="content"&gt;
 			&lt;p&gt;Congratulations! you are ready to start coding!&lt;/p&gt;
-			&lt;/div&lt;
+			&lt;/div&gt;
 		&lt;/body&gt;
 	&lt;/html&gt;
 	</code>
@@ -74,11 +74,11 @@
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
 <br>[-] Each command you type will be inside of angle brackets, and closed with a slash:
 <pre><code>
-&lt;h1&gt;code goes here&lt;/h1&gt;
-&lt;h2&gt;code goes here&lt;/h2&gt;
-&lt;h6&gt;code goes here&lt;/h6&gt;
-&lt;p&gt;code goes here&lt;/p&gt;
-&lt;div&gt;code goes here&lt;/div&gt;
+&lt;h1&gt;<span style="color:red">code goes here</span>&lt;/h1&gt;
+&lt;h2&gt;<span style="color:red">code goes here</span>&lt;/h2&gt;
+&lt;h6&gt;<span style="color:red">code goes here</span>&lt;/h6&gt;
+&lt;p&gt;<span style="color:red">code goes here</span>&lt;/p&gt;
+&lt;div&gt;<span style="color:red">code goes here</span>&lt;/div&gt;
 </code></pre>
 <br>[-] And if you know JavaScript, you can imbed it in HTML!
 <pre><code>
