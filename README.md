@@ -66,6 +66,31 @@
 </pre>
 <br>[-] Save the file as <i>index.html</i>
 <br>[-] Create a new file <button>Ctrl</button>/<button>Command</button> and <button>n</button>
+<br>[-] Insert the following code:
+<pre><code>
+	.title {
+  width: 70%;
+  margin: 20px auto 0px;
+  color: black;
+  background: #FFFFFF;
+  text-align: center;
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+.content {
+  width: 70%;
+  margin: 20px auto 0px;
+  color: red;
+  background: #FFFFFF;
+  text-align: center;
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+</code></pre>
 <br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/{your computer username}/Documents/GitHub/{whatever you called your project}/index.html
@@ -74,11 +99,11 @@
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
 <br>[-] Each command you type will be inside of angle brackets, and closed with a slash:
 <pre><code>
-&lt;h1&gt;<span style="color:red">code goes here</span>&lt;/h1&gt;
-&lt;h2&gt;<span style="color:red">code goes here</span>&lt;/h2&gt;
-&lt;h6&gt;<span style="color:red">code goes here</span>&lt;/h6&gt;
-&lt;p&gt;<span style="color:red">code goes here</span>&lt;/p&gt;
-&lt;div&gt;<span style="color:red">code goes here</span>&lt;/div&gt;
+&lt;h1&gt;code goes here&lt;/h1&gt;
+&lt;h2&gt;code goes here&lt;/h2&gt;
+&lt;h6&gt;code goes here&lt;/h6&gt;
+&lt;p&gt;code goes here&lt;/p&gt;
+&lt;div&gt;code goes here&lt;/div&gt;
 </code></pre>
 <br>[-] And if you know JavaScript, you can imbed it in HTML!
 <pre><code>
