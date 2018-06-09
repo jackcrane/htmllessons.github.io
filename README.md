@@ -54,16 +54,21 @@
 		&lt;link rel="stylesheet" href="style.css"&gt;
 	&lt;/head&gt;
 		&lt;body&gt;
+			&lt;div class="title"&gt;
 			&lt;h1&gt;My team website!&lt;/h1&gt;
+			&lt;/div&lt;
+			&lt;div class="content"&gt;
 			&lt;p&gt;Congratulations! you are ready to start coding!&lt;/p&gt;
+			&lt;/div&lt;
 		&lt;/body&gt;
 	&lt;/html&gt;
 	</code>
 </pre>
 <br>[-] Save the file as <i>index.html</i>
-<br>[-] Navigate back to the folder, and there should be a new file called index.html
+<br>[-] Create a new file <button>Ctrl</button>/<button>Command</button> and <button>n</button>
+<br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
-<br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/Jack/Documents/GitHub/{whatever you called your project}/index.html
+<br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/{your computer username}/Documents/GitHub/{whatever you called your project}/index.html
 <br>[-] Click "file" then "new file" (this can also be achived by clicking <button>Ctrl</button>/<button>Command</button> and <button>n</button>)
 <h1>Let's start editing!</h1>
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
@@ -92,6 +97,6 @@
 &lt;div&gt;&lt;/div&gt;  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
 </code></pre>
 <h1>Acknowledgments</h1>
-[-] <a href="mailto: 3jbc22@gmail.com">Jack Crane</a>
+[-] <a href="mailto: 3jbc22@gmail.com">Jack Crane</a> <p>(active mail link)</p>
 <h1>License</h1>
 [-] Free to use, edit, and redistribute, as long as I am still credited.
