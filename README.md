@@ -68,9 +68,9 @@
 <br>[-] Create a new file <button>Ctrl</button>/<button>Command</button> and <button>n</button>
 <br>[-] Insert the following code:
 <pre><code>
-	.title {
+.title {
   width: 70%;
-  margin: 20px auto 0px;
+  margin: 20px;
   color: black;
   background: #FFFFFF;
   text-align: center;
@@ -81,7 +81,7 @@
 }
 .content {
   width: 70%;
-  margin: 20px auto 0px;
+  margin: 20px;
   color: red;
   background: #FFFFFF;
   text-align: center;
@@ -91,6 +91,16 @@
   padding: 20px;
 }
 </code></pre>
+<br>[-] We will now explain this code. If you want to skip, scroll down to below the line.
+<pre><code>.title { ... }</code></pre>
+<br>	[-] The name of our div (&lt;div class="<span style="color:red">title</span>&gt;") with a period "." in front of it.
+<br>	[-] The curvy brackets <span style="color:red">{...}</span>
+<br>
+<pre><code>width: 70%</code></pre>
+<br>	[-] The percentage width of the div in comparison to the size of the screen.
+<br>
+<pre><code>margin: 20px</code></pre>
+<hr>
 <br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/{your computer username}/Documents/GitHub/{whatever you called your project}/index.html
