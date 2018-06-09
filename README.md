@@ -99,8 +99,11 @@
 <pre><code>width: 70%</code></pre>
 <br>	[-] The percentage width of the div in comparison to the size of the screen.
 <br>
+<br>
 <pre><code>margin: 20px</code></pre>
 <br>	[-] The space outside of the div. (NOT within the already set 70%)
+<br>
+<pre><code>padding: 20px</code></pre>
 <hr>
 <br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
