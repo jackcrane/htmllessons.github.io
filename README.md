@@ -73,8 +73,6 @@
   margin: 20px;
   padding: 20px;
   border: 1px solid white;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
   color: black;
   background: #FFFFFF;
   text-align: center;
@@ -84,8 +82,6 @@
   margin: 20px;
   padding: 20px;
   border: 1px solid white;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
   color: red;
   background: #FFFFFF;
   text-align: center;
@@ -93,17 +89,24 @@
 </code></pre>
 <br>[-] We will now explain this code. If you want to skip, scroll down to below the line.
 <pre><code>.title { ... }</code></pre>
-<br>	[-] The name of our div (&lt;div class="<span style="color:red">title</span>&gt;") with a period "." in front of it.
+	[-] The name of our div (&lt;div class="<span style="color:red">title</span>&gt;") with a period "." in front of it.
 <br>	[-] The curvy brackets <span style="color:red">{...}</span> tell te computer that all of the code inside (where the "..." is in the example) belongs to that div.
 <br>
 <pre><code>width: 70%</code></pre>
-<br>	[-] The percentage width of the div in comparison to the size of the screen.
+	[-] The percentage width of the div in comparison to the size of the screen.
 <br>
 <br>
 <pre><code>margin: 20px</code></pre>
-<br>	[-] The space outside of the div. (NOT within the already set 70%)
+	[-] The space outside of the div. (NOT within the already set 70%)
 <br>
 <pre><code>padding: 20px</code></pre>
+	[-] The space inside of the div.
+<br>
+<pre><code>border: 1px solid white<br></code></pre>
+  	[-] Manages the border. This is the color and thickness of the entire border on all 4 sides.
+<br>
+<pre><code>color: black</code></pre>
+	[-] 
 <hr>
 <br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
