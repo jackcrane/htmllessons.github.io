@@ -140,4 +140,4 @@
 <h1>Acknowledgments</h1>
 [-] <a href="mailto: 3jbc22@gmail.com">Jack Crane</a> <p>(active mail link)</p>
 <h1>License</h1>
-[-] Free to use, edit, and redistribute, as long as I am still credited. The powerpoint to be used along with this is availible on this GitHub page. Download <a href="htmllessons.github.io/HTML workshop powerpoint.ppt">here</a>. Please use this powerpoint to do your own direction.
+[-] Free to use, edit, and redistribute, as long as I am still credited. The powerpoint to be used along with this is availible on this GitHub page. Download <a href="http://htmllessons.github.io/HTML workshop powerpoint.ppt">here</a>. Please use this powerpoint to do your own direction.
