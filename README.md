@@ -86,6 +86,7 @@
   text-align: center;
 }
 </code></pre>
+<br>[-] Save this file as "style.css"
 <br>[-] We will now explain this code. If you want to skip, scroll down to below the line.
 <pre><code>.title { ... }</code></pre>
 	[-] The name of our div (&lt;div class="<span style="color:red">title</span>&gt;") with a period "." in front of it.
@@ -97,20 +98,19 @@
 <br>
 <pre><code>margin: 20px</code></pre>
 	[-] The space outside of the div. (NOT within the already set 70%)
-<br>
+<br><br>
 <pre><code>padding: 20px</code></pre>
 	[-] The space inside of the div.
-<br>
+<br><br>
 <pre><code>border: 1px solid white<br></code></pre>
   	[-] Manages the border. This is the color and thickness of the entire border on all 4 sides.
-<br>
+<br><br>
 <pre><code>color: black</code></pre>
-	[-] 
+	[-] Manages the color of the text in the div 
 <hr>
 <br>[-] Navigate back to the folder, and there should be a file called index.html
 <br>[-] Right-click on it and select "open with" and select "Google Chrome"
 <br>[-] Your file should open on Google Chrome. With the url file:///C:/Users/{your computer username}/Documents/GitHub/{whatever you called your project}/index.html
-<br>[-] Click "file" then "new file" (this can also be achived by clicking <button>Ctrl</button>/<button>Command</button> and <button>n</button>)
 <h1>Let's start editing!</h1>
 <br>[-] It is important to know that HTML works with <i>lots</i> angle brackets.
 <br>[-] Each command you type will be inside of angle brackets, and closed with a slash:
