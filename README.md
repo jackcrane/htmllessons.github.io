@@ -50,7 +50,6 @@
 &lt;!DOCTYPE html&gt;
 	&lt;html&gt;
 	&lt;head&gt;
-		My team website!
 		&lt;link rel="stylesheet" href="style.css"&gt;
 	&lt;/head&gt;
 		&lt;body&gt;
