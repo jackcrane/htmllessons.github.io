@@ -138,6 +138,6 @@
 &lt;div&gt;&lt;/div&gt;  --  surround groups of elements with divs to style things such as background, outline color, font, text size, and animations
 </code></pre>
 <h1>Acknowledgments</h1>
-[-] <a href="mailto: 3jbc22@gmail.com">fan5fll</a> <p>(active mail link)</p>
+[-] <a href="mailto: 3jbc22@gmail.com">Jack Crane</a> <p>(active mail link)</p>
 <h1>License</h1>
 [-] Free to use, edit, and redistribute, as long as I am still credited.
