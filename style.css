@@ -1,22 +1,56 @@
-.title {
-  width: 70%;
-  margin: 20px auto 0px;
-  color: black;
-  background: #FFFFFF;
-  text-align: center;
-  border: 1px solid white;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
+.header {
+    background-color: blue;
+    color: white;
+    padding: 4rem;
+    margin: 2rem;
+    border-width: 50px;
+    border-color: blue;
+    border-radius: 8px;
 }
-.content {
-  width: 70%;
-  margin: 20px auto 0px;
-  color: red;
-  background: #FFFFFF;
-  text-align: center;
-  border: 1px solid white;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
+.body1 {
+    background-color: red;
+    color: white;
+    padding: 4rem;
+    margin: 2rem;
+    border-width: 50px;
+    border-color: red;
+    border-radius: 8px;
+}
+.body2 {
+    background-color: yellow;
+    color: black;
+    padding: 4rem;
+    margin: 2rem;
+    border-width: 50px;
+    border-color: red;
+    border-radius: 8px;
+}
+.body3 {
+    background-color: hotpink;
+    color: white;
+    padding: 4rem;
+    margin: 2rem;
+    border-width: 50px;
+    border-color: red;
+    border-radius: 8px;
+}
+.footer {
+    background-color: green;
+    color: white;
+    padding: 4rem;
+    margin: 2rem;  
+    border-width: 50px;
+    border-color: green;
+    border-radius: 8px;
+}
+.table1 {
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+}
+@keyframes border-change {
+    0% {border: dashed red 7px;transform: rotateZ(5deg)}
+    33% {border: dashed yellow 7px;}
+    66% {border: dashed green 7px;}
+    100%{border: dashed blue 7px;transform: rotateZ(-5deg)}
 }
