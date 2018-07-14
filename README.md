@@ -44,7 +44,7 @@
 <br>
 <h1>Creating your first webpage</h1>
 <br>
-<br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. It dosen't take too long. You are ready to start coding!<br>
+<br>[-] Open "Sublime Text 3" (you should have downloaded it earlier, if you didn't, now would be a convient time to do so. <a href="sublimetext.com/3>Download from here</a> It dosen't take too long. You are ready to start coding!<br>
 <pre>
 	<code>
 &lt;!DOCTYPE html&gt;
@@ -64,6 +64,7 @@
 	</code>
 </pre>
 <br>[-] Save the file as <i>index.html</i>
+<br>[-] Elements of this code will be explained later.
 <br>[-] Create a new file <button>Ctrl</button>/<button>Command</button> and <button>n</button>
 <br>[-] Insert the following code:
 <pre><code>
