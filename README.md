@@ -14,11 +14,14 @@
 <br>
 <h2>Download</h2>
 <h3>Windows</h3>
-<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176%20x64%20Setup.exe">download</a>
+<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176%20x64%20Setup.exe">Download (sublime text)</a><br>
+<a href="https://central.github.com/deployments/desktop/desktop/latest/win32">Download (github desktop)</a>
 <h3>OSX</h3>
-<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176.dmg">Download</a>
+<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176.dmg">Download (sublime text)</a><br>
+<a href="https://central.github.com/deployments/desktop/desktop/latest/darwin">Download (github desktop)</a>
 <h3>Linux Distributions</h3>
-Instructions for <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#apt" target="blank">apt-get</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#pacman" target="blank">Pacman</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#yum" target="blank">Yum</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#dnf" target="blank">Dnf</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#zypper" target="blank">Zypper</a>
+Instructions for <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#apt" target="blank">apt-get</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#pacman" target="blank">Pacman</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#yum" target="blank">Yum</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#dnf" target="blank">Dnf</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#zypper" target="blank">Zypper</a> (sublime text)<br>
+There <i>is no</i> github desktop availible for linux. However, when it comes to uploading, let me know, I will guide you through it.
 <br>
 <h1>What we will cover in this introduction to programming</h1>
 <br>[-] Creating a new HTML file and opening it
