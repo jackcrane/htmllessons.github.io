@@ -14,11 +14,11 @@
 <br>
 <h2>Download</h2>
 <h3>Windows</h3>
-
+<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176%20x64%20Setup.exe">download</a>
 <h3>OSX</h3>
-
+<a href="http://htmllessons.github.io/Sublime%20Text%20Build%203176.dmg">Download</a>
 <h3>Linux Distributions</h3>
-<br>Instructions for <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#apt" target="blank">apt-get</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#pacman" target="blank">Pacman</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#yum" target="blank">Yum</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#dnf" target="blank">Dnf</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#zypper" target="blank">Zypper</a>
+Instructions for <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#apt" target="blank">apt-get</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#pacman" target="blank">Pacman</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#yum" target="blank">Yum</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#dnf" target="blank">Dnf</a>, <a href="https://www.sublimetext.com/docs/3/linux_repositories.html#zypper" target="blank">Zypper</a>
 <br>
 <h1>What we will cover in this introduction to programming</h1>
 <br>[-] Creating a new HTML file and opening it
