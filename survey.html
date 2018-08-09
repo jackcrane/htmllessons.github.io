@@ -1,0 +1,325 @@
+<html onload="changeUID()">
+	<head>
+		<title>Survey</title>
+		<link rel="icon" href="favicon.ico">
+		<script>
+			var uid = Math.floor(10000000000000 + Math.random() * 90000000000000);
+			function yourfunction() {document.getElementById("userNumber").value = "Your unique user ID: " + uid + "    - Please copy or write it down, you may need it later"}
+
+window.onload = yourfunction;
+
+			// window.onload = 'document.getElementById("userNumber").value = "test"'
+			function myFunction() {
+				var usr = document.getElementById("userNumber").value
+				alert("STOP!\n\nWe need you to write down your user ID number. \nYou will use it if you are signing up more than one person. \nIf it is just you attending the presentation, you can ignore this popup. \n\nSCROLL DOWN\n\n YOUR UNIQUE USER ID CODE:\n"+uid+"\n\nClick 'OK' to continue when you are ready")
+			}
+
+function myFunction2() {
+var test = 0
+var fname = document.getElementById("fname").value
+if (fname != ""){
+test = test+1
+document.getElementById("fname").style = "background-color:white"
+} else {
+document.getElementById("fname").style = "background-color:red"
+}
+
+var lname = document.getElementById("lname").value
+if (lname != ""){
+test = test+1
+document.getElementById("lname").style = "background-color:white"
+} else {
+document.getElementById("lname").style = "background-color:red"
+}
+
+var email = document.getElementById("email").value
+if (email != ""){
+test = test+1
+document.getElementById("email").style = "background-color:white"
+} else {
+document.getElementById("email").style = "background-color:red"
+}
+
+var age = document.getElementById("age").value
+if (age != ""){
+test = test+1
+document.getElementById("age").style = "background-color:white"
+} else {
+document.getElementById("age").style = "background-color:red"
+}
+
+var obj = document.getElementById("objective").value
+if (obj != ""){
+test = test+1
+document.getElementById("objective").style = "background-color:white"
+} else {
+document.getElementById("objective").style = "background-color:red"
+}
+
+if (test === 5){
+console.log("ready")
+myFunction()
+} else {alert('Please fill out required fields')}
+
+console.log(test)
+}
+
+		</script>
+
+
+		<style>
+		input[type=text], select {
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		}
+		input.break {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+}
+		input[type=select], select {
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		    width: 100%;
+		    background-color: #4CAF50;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		}
+		
+		input[type=submit]:hover {
+		    background-color: #45a049;
+		}
+		
+		div {
+		    border-radius: 5px;
+		    background-color: #f2f2f2;
+		    padding: 20px;
+		}
+		input[type=text] {
+ 		   width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    box-sizing: border-box;
+		    border: 3px solid #ccc;
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+		    outline: none;
+		}
+		
+		input[type=text]:focus {
+		    border: 3px solid #555;
+		}
+
+		input[type=select] {
+ 		   width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    box-sizing: border-box;
+		    border: 3px solid #ccc;
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+		    outline: none;
+		}
+		
+		input[type=select]:focus {
+		    border: 3px solid #555;
+		}
+
+		.center{
+			width:50%;
+			margin-left:25%;
+			margin-right:25%;
+			
+		}
+		.center_form{
+			
+			margin:auto;
+			width:99%;
+		}
+		body {
+	    background-image: url("connectwork.png");
+
+
+		}
+		.slidecontainer {
+    width: 90%;
+}
+
+span{
+	color:red;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+		</style>
+<body>
+
+	<div class="center">
+	  	<form action="/action_page.php" class="center_form">
+ 	   		<label for="fname">First Name</label><span> *</span>
+ 		    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+	    	<label for="lname">Last Name</label><span> *</span>
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    		<label for="email">Email</label><span> *</span>
+    		<input type="text" id="email" name="email" placeholder="Your email.." required>
+
+	    	<label for="age">I am a...</label><span> *</span>
+    		<select id="age" name="age" required>
+    			<option value="">Select...</option>
+      			<option value="kid">Kid (less than 12)</option>
+      			<option value="teen">Teen (12-18)</option>
+      			<option value="adult">Adult (18+)</option>
+    		</select>
+  			
+    		<label for="objective">What are you hoping to get out of this?</label><span> *</span>
+    		<input required type="text" name="objective" onkeyup="textCounter(this,'counter',255);" id="objective" placeholder="Let me know what you want to get out of this in less than 255 characters ">
+<div style="text-align: right">
+<label>Remaining Characters: </label><input disabled  maxlength="3" size="3" value="255" id="counter" style="background-color:transparent;border-style: none;">
+</div>
+<script>
+function textCounter(field,field2,maxlimit)
+{
+ var countfield = document.getElementById(field2);
+ if ( field.value.length > maxlimit ) {
+  field.value = field.value.substring( 0, maxlimit );
+  return false;
+ } else {
+  countfield.value = maxlimit - field.value.length;
+ }
+}
+</script>
+<label for="myRange">On a scale from 1-10, how much experience in programming do you have?</label>
+<div class="slidecontainer">
+  <input type="range" min="1" max="10" value="5" class="slider" id="myRange" name="scale">
+  <p>Value: <span style="color:black" id="demo"></span></p>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
+<label for="lang">What other programming languages do you have experience in? (hold control to select multiple)</label><br>
+	<select multiple name="exp">
+		<option value="None" name="None">None - Be sure to read through all of them though.</option>
+<option value="ActionScript" name="ActionScript">ActionScript</option>
+<option value="B" name="B">B</option>
+<option value="Bash" name="Bash">Bash</option>
+<option value="BASIC" name="BASIC">BASIC</option>
+<option value="Batch" name="Batch">Batch</option>
+<option value="BootStrap" name="BootStrap">BootStrap</option>
+<option value="C" name="C">C</option>
+<option value="C--" name="C--">C--</option>
+<option value="C++" name="C++">C++</option>
+<option value="C#" name="C#">C#</option>
+<option value="CSS" name="CSS">CSS</option>
+<option value="CoffeeScript" name="CoffeeScript">CoffeeScript</option>
+<option value="DASL" name="DASL">DASL</option>
+<option value="F" name="F">F</option>
+<option value="F*" name="F*">F*</option>
+<option value="F#" name="F#">F#</option>
+<option value="Fantom" name="Fantom">Fantom</option>
+<option value="HTML" name="HTML">HTML</option>
+<option value="ICON" name="ICON">ICON</option>
+<option value="IBM languages" name="IBM languages">IBM languages</option>
+<option value="JADE" name="JADE">JADE</option>
+<option value="Java" name="Java">Java</option>
+<option value="JavaScript" name="JavaScript">JavaScript</option>
+<option value="JScript" name="JScript">JScript</option>
+<option value="JQuery" name="JQuery">JQuery</option>
+<option value="LabVIEW (LEGO NXT, EV3, Etc.)" name="LabVIEW">LabVIEW (LEGO NXT, EV3, Etc.)</option>
+<option value="LiveScript" name="LiveScript">LiveScript</option>
+<option value="NXC" name="NXC">NXC</option>
+<option value="NQC" name="NQC">NQC</option>
+<option value="PHP" name="PHP">PHP</option>
+<option value="PL/SQL" name="PL/SQL">PL/SQL</option>
+<option value="PostScript" name="PostScript">PostScript</option>
+<option value="PowerShell" name="PowerShell">PowerShell</option>
+<option value="Python" name="Python">Python</option>
+<option value="R" name="R">R</option>
+<option value="R++" name="R++">R++</option>
+<option value="SQL" name="SQL">SQL</option>
+<option value="Scratch" name="Scratch">Scratch</option>
+<option value="TypeScript" name="TypeScript">TypeScript</option>
+<option value="UNITY" name="UNITY">UNITY</option>
+<option value="UnrealScript" name="UnrealScript">UnrealScript</option>
+<option value="Unix Shell (linux/mac command line)" name="UNIX">Unix Shell (linux/mac command line)</option>
+<option value="Visual Basic" name="VBasic">Visual Basic</option>
+<option value="Visual Basic .NET" name="VBasic.NET">Visual Basic .NET</option>
+<option value="Wolfram" name="Wolfram">Wolfram</option>
+</select>
+
+<input type="checkbox" name="photo approval" id="app">
+<label for="app">I give approval for iSPACE and its volunteers and presenters to take and share my photos on the internet, press releases, printed documents, advertisements, social networks, and however else they see fit.</label>
+
+
+
+    		<input type="submit" value="Submit" onclick="myFunction2()">
+<script>
+function c2c() {
+  var copyText = document.getElementById("userNumber");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+    		<input type="text" id="userNumber" value="" disabled >
+
+  		</form>
+	</div>
+
