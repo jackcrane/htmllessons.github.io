@@ -34,7 +34,7 @@ There <i>is no</i> github desktop availible for linux. However, when it comes to
 <h1>So lets get started!</h1>
 <br>
 <h1>Creating a github account</h1>
-<br><video src="acc.mpy" alt="Create an account directions"></video>
+<br><img src="acc.gif" alt="Create an account directions">
 <br>[-] Create an account name (preferrably teamnameteamnumber.) Ex: fantasticfive618 <b><u><i>NO CAPITOL LETTERS!</i></u></b>
 <br>[-] Follow the prompts to make an account, leave the plan as it is, otherwise you have to pay, and there is really no reason for us to pay.
 <br>[-] On the survey page you can fill it out or click skip, it does nothing.
