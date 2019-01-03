@@ -14,6 +14,11 @@ window.onload = yourfunction;
 				alert("STOP!\n\nWe need you to write down your user ID number. \nYou will use it if you are signing up more than one person. \nIf it is just you attending the presentation, you can ignore this popup. \n\nSCROLL DOWN\n\n YOUR UNIQUE USER ID CODE:\n"+uid+"\n\nClick 'OK' to continue when you are ready")
 			}
 
+function startDBG() {
+	document.getElementById("main-form").action = "process.php"
+	console.log(document.getElementById("main-form").action)
+}
+
 function myFunction2() {
 var test = 0
 var fname = document.getElementById("fname").value
@@ -203,18 +208,18 @@ span{
 <body>
 
 	<div class="center">
-	  	<form action="http://3jbc22.000webhostapp.com/process.php" method="POST" class="center_form">
+	  	<form action="http://3jbc22.000webhostapp.com/process.php" method="POST" class="center_form" id="main-form">
  	   		<label for="fname">First Name</label><span> *</span>
- 		    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+ 		    <input type="text" id="fname" name="firstname" placeholder="Your name.." required onchange='document.getElementById("fname").style = "background-color:white"'>
 
 	    	<label for="lname">Last Name</label><span> *</span>
-    		<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name.." required onchange='document.getElementById("lname").style = "background-color:white"'>
 
     		<label for="email">Email</label><span> *</span>
-    		<input type="text" id="email" name="email" placeholder="Your email.." required>
+    		<input type="text" id="email" name="email" placeholder="Your email.." required onchange='document.getElementById("email").style = "background-color:white"'>
 
 	    	<label for="age">I am a...</label><span> *</span>
-    		<select id="age" name="age" required>
+    		<select id="age" name="age" required onchange='document.getElementById("age").style = "background-color:white"'>
     			<option value="">Select...</option>
       			<option value="kid">Kid (less than 12)</option>
       			<option value="teen">Teen (12-18)</option>
@@ -222,7 +227,7 @@ span{
     		</select>
   			
     		<label for="objective">What are you hoping to get out of this?</label><span> *</span>
-    		<input required type="text" name="objective" onkeyup="textCounter(this,'counter',255);" id="objective" placeholder="Let me know what you want to get out of this in less than 255 characters ">
+    		<input required onchange='document.getElementById("objective").style = "background-color:white"' type="text" name="objective" onkeyup="textCounter(this,'counter',255);" id="objective" placeholder="Let me know what you want to get out of this in less than 255 characters ">
 <div style="text-align: right">
 <label>Remaining Characters: </label><input disabled  maxlength="3" size="3" value="255" id="counter" style="background-color:transparent;border-style: none;">
 </div>
@@ -310,16 +315,8 @@ slider.oninput = function() {
 
 
     		<input type="submit" value="Submit" onclick="myFunction2()">
-<script>
-function c2c() {
-  var copyText = document.getElementById("userNumber");
-  copyText.select();
-  document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
-}
-</script>
+
     		<input type="text" id="userNumber" name="uid" value="" disabled >
 
   		</form>
 	</div>
-
